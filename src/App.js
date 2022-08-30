@@ -1,10 +1,9 @@
 
-
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       Hi
-    </div>
+    </main>
   );
 }
 
