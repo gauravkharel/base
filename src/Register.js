@@ -113,6 +113,7 @@ const Register = () => {
                             id="username"
                             ref={userRef}
                             autoComplete="off"
+                            value={user}
                             onChange={(e) => setUser(e.target.value)}
                             required
                             aria-invalid={validName ? "false" : "true"}
